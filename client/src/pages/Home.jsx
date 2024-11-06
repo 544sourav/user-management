@@ -43,16 +43,16 @@ export const Home = () => {
       ) : (
         <div>
           {/* Navbar */}
-          <nav className="bg-gradient-to-r from-purple-500 to-indigo-600 p-3 px-20 flex justify-between items-center shadow-lg">
+          <nav className="bg-gradient-to-r from-purple-500 to-indigo-600 p-3 md:px-20 flex justify-between items-center shadow-lg">
             <div
-              className="text-2xl font-extrabold cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 hover:opacity-90"
+              className="text-lg md:text-2xl font-extrabold cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 hover:opacity-90"
               onClick={() => window.location.reload()}
             >
               NeonLogo
             </div>
             <button
               onClick={openAddUserModal}
-              className="bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-2 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+              className="bg-gradient-to-r text-base md:text-lg  from-pink-500 to-purple-600 text-white font-bold py-2 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
             >
               Add User
             </button>
